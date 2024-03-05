@@ -17,7 +17,7 @@ npx storybook@next init
 ```
 docker build -t storybook8compositionrepro .
 
-docker run storybook8compositionrepro -p 3003:3003
+docker run -p 3003:3003 storybook8compositionrepro
 ```
 
 Navigate to http://localhost:3003/main-storybook & note that only two composed storybooks ever load on the page.
