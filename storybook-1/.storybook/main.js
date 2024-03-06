@@ -21,15 +21,15 @@ const config = {
   refs: {
     'otherstorybook': {
       title: 'other storybook',
-      url: '/other-storybook',
+      url: 'http://localhost:3003/other-storybook',
     },
     'otherstorybooktwo': {
       title: 'other storybook 2',
-      url: '/other-storybook-2',
+      url: 'http://localhost:3003/other-storybook-2',
     },
     'otherstorybookthree': {
       title: 'other storybook 3',
-      url: '/other-storybook-3',
+      url: 'http://localhost:3003/other-storybook-3',
     },
 
   },
